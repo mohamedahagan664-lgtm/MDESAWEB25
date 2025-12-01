@@ -28,4 +28,3 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 ## 5) Herramientas de desarrollo
 - **Visual Studio Code** para escribir el código
 ![Logo](imagenes/Visual_Sudio_Code.png)
-
