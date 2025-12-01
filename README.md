@@ -61,4 +61,4 @@ La siguiente tabla nos muestra un resumen de las tecnologías y las herramientas
   <button class="Comprar"><strong>Comprar</strong></button>
 </div>
 ```
-Haz clic para ver un los detalles funcionales: [Ir a los detalles fucionales](./detalle-funcional.md)
+Haz clic para ver un los detalles funcionales: [Ver el detalle funcional](./detalle-funcional.md)
