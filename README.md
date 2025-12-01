@@ -28,6 +28,7 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 - Framework: [Laravel](https://laravel.com/)
 ### Base de datos
 - MySQL para los productos y los usuarios
+[![logo-enlace](./mysql.png)](https://www.mysql.com/)
 ## 5) Herramientas de desarrollo
 - **Visual Studio Code** para escribir el código
 ![Logo](./Visual_Studio_Code.png)
