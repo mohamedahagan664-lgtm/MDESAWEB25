@@ -26,6 +26,6 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 ### Base de datos
 - MySQL para los productos y los usuarios
 ## 5) Herramientas de desarrollo
-- **Visual Stadio Code** para escribir el código
--  
+- **Visual Studio Code** para escribir el código
+![Logo](imagenes/Visual_Sudio_Code.png)
 
