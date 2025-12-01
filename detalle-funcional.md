@@ -1,6 +1,7 @@
 # Los detalles funcionales de la tienda online de los móviles
 
 ![Logo](./Logo.png)
+---
 **Nota:** esto es el logo del proyecto pero no es el ultimo versión se puede camabiar.
 
 ## Flujo de compra en la tiende de los móviles
