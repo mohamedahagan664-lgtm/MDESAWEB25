@@ -32,6 +32,7 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 - **Visual Studio Code** para escribir el código
 ![Logo](./Visual_Studio_Code.png)
 - **GitHub** para gestionar y controlar el proyecto
+![Logo](./Github.png)
 - **Figma** para diseñar la interfaz
 ## 6) Resumen rapido de las tecnologías y las herramientas
 La siguiente tabla nos muestra un resumen de las tecnologías y las herramientas:
