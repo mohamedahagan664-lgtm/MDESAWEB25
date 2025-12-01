@@ -1,3 +1,5 @@
+# Los detalles funcionales de la tienda online de los móviles
+
 ## Flujo de compra en la tiende de los móviles
 
 El sistema de compra permitirá a los usuarios seleccionar un móvil, añadirlo al carrito y completar el pago de forma segura.
