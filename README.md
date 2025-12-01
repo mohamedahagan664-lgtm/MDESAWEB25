@@ -30,6 +30,7 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 - MySQL para los productos y los usuarios
 ## 5) Herramientas de desarrollo
 - **Visual Studio Code** para escribir el código
+![Logo](./Visual_Studio_Code.png)
 - **GitHub** para gestionar y controlar el proyecto
 - **Figma** para diseñar la interfaz
 ## 6) Resumen rapido de las tecnologías y las herramientas
