@@ -7,6 +7,7 @@
 - ### Backend
 - ### Base de datos
 - ## Herramientas de desarrollo
+- ## Fases de desarrollo
 
 ## 1) Descripción del proyecto
 **Esta tienda online** es una aplicación web que permite a los usuarios buscar, navehar y comprar los móviles.
@@ -29,4 +30,18 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 - **Visual Studio Code** para escribir el código
 - **GitHub** para gestionar y controlar el proyecto
 - **Figma** para diseñar la interfaz
-
+## Fases de desarrollo
+1. Diseño de la interfaz en Figma.  
+2. Implementación del catálogo en HTML/CSS.  
+3. Integración del carrito y sistema de pagos.  
+4. Desarrollo del backend y conexión con la base de datos.  
+5. Pruebas de accesibilidad y despliegue en GitHub Pages.
+## Ejemplo de código
+```html
+<div class="producto">
+  <img src="Samsung.jpg" alt="Samsung Galaxy S25 Ultra">
+  <p>Samsung Galaxy S25 Ultra</p>
+  <p>1.000 €</p>
+  <button class="Añadir"><strong>Añadir</strong></button>
+  <button class="Comprar"><strong>Comprar</strong></button>
+</div>
