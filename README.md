@@ -34,6 +34,7 @@ Yo he elegido este proyecto porque todos sabemos que las herramientas electronic
 - **GitHub** para gestionar y controlar el proyecto
 ![Logo](./Github.png)
 - **Figma** para diseñar la interfaz
+![Logo](./Figma.svg)
 ## 6) Resumen rapido de las tecnologías y las herramientas
 La siguiente tabla nos muestra un resumen de las tecnologías y las herramientas:
 | Frontend    |  Backend   | Herramientas                 |
