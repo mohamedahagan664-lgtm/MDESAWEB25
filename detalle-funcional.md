@@ -1,4 +1,4 @@
-# Los detalles funcionales de la tienda online de los móviles
+# El detalle funcional de la tienda online de los móviles
 
 ![Logo](./Logo.png)
 ---
