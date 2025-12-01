@@ -1,5 +1,8 @@
 # Los detalles funcionales de la tienda online de los móviles
 
+![Logo](./logo.png)
+**Nota:** esto es el logo del proyecto pero no es el ultimo versión se puede camabiar.
+
 ## Flujo de compra en la tiende de los móviles
 
 El sistema de compra permitirá a los usuarios seleccionar un móvil, añadirlo al carrito y completar el pago de forma segura.
