@@ -397,6 +397,95 @@ balinot/
 
 ---
 
+## Cómo Trabajar con ACF desde WordPress
+
+### Opción 1: Desde el Panel de WordPress (Interfaz Visual)
+
+Esta es la forma más sencilla para usuarios que prefieren una interfaz visual:
+
+1. **Instalar ACF**: Ve a **Plugins > Añadir nuevo** y busca "Advanced Custom Fields", luego instala y activa.
+
+2. **Crear Grupos de Campos**:
+   - En el menú lateral de WordPress, busca **Campos Personalizados** (o "Custom Fields" en inglés)
+   - Haz clic en **Añadir nuevo** para crear un nuevo grupo de campos
+   - Asigna un nombre al grupo (ej: "Configuración del Home")
+
+3. **Añadir Campos**:
+   - Haz clic en **Añadir campo**
+   - Define el **Label** (etiqueta visible) y **Name** (nombre del campo para el código)
+   - Selecciona el **Tipo de campo** (texto, imagen, repetidor, etc.)
+   - Configura reglas de ubicación (dónde mostrar este grupo)
+
+4. **Establecer Ubicación**:
+   - En la sección "Ubicación", define cuándo mostrar los campos:
+     - **Tipo de entrada** = Página → Plantilla de página = Front Page (para la página de inicio)
+     - **Tipo de entrada** = Página → Todas = true (para todas las páginas)
+     - **Opciones de WP** = Iguales a = opciones (para opciones del tema)
+
+5. **Publicar**: Haz clic en "Publicar" para guardar el grupo de campos.
+
+### Opción 2: Exportar/Importar JSON
+
+ACF permite exportar los grupos de campos a JSON para versionarlos:
+
+1. En el admin de WordPress, ve a **Campos Personalizados > Herramientas de exportación**
+2. Selecciona los grupos de campos que quieres exportar
+3. Descarga el archivo JSON
+4. Guarda el archivo en `inc/acf-json/` de tu tema
+5. ACF detectará automáticamente estos archivos
+
+### Opción 3: Programáticamente (Código PHP)
+
+Para desarrolladores que prefieren código:
+
+1. Crea el archivo `inc/acf.php` en tu tema
+2. Registra los campos usando `acf_add_local_field_group()`
+3. Carga el archivo desde `functions.php`
+
+---
+
+## Gestión de Contenido desde WordPress
+
+### Editar Contenido de la Página de Inicio
+
+1. Ve a **Páginas > Todas las páginas**
+2. Edita la página configurada como "Página frontal estática"
+3. Verás los campos ACF en la parte inferior del editor
+4. Rellena los campos y actualiza la página
+
+### Editar Opciones del Tema
+
+1. Si configuraste una página de opciones, aparecerá en el menú lateral como "Opciones del Tema"
+2. Haz clic para editar la configuración global (logo, redes sociales, etc.)
+
+### Trabajar con Campos Repetidor
+
+Los campos repetidor permiten añadir múltiples elementos:
+
+1. En el campo repetidor, haz clic en **Añadir fila**
+2. Rellena los subcampos (título, descripción, imagen, etc.)
+3. Arrastra las filas para reordenar
+4. Haz clic en eliminar para quitar filas
+
+---
+
+## Sincronización de Campos
+
+### Guardar cambios automáticamente
+
+ACF guarda los cambios automáticamente cuando publicas/actualizas una página.
+
+### Exportar cambios del admin al código
+
+Si creaste campos desde el admin y quieres versionarlos:
+
+1. Ve a **Campos Personalizados > Herramientas de exportación**
+2. Selecciona "Exportar a PHP"
+3. Copia el código generado
+4. Pégalo en `inc/acf.php` (opcional - para tener todo en código)
+
+---
+
 ## Recursos Adicionales
 
 - **Documentación oficial**: https://www.advancedcustomfields.com/resources/
@@ -408,7 +497,7 @@ balinot/
 ## Próximos Pasos para Implementar en Balinot
 
 1. **Instalar el plugin ACF** en el sitio de WordPress
-2. **Crear el archivo `inc/acf.php`** con la configuración de campos
+2. **Crear el archivo `inc/acf.php`** con la configuración de campos (o usar la interfaz visual)
 3. **Modificar las plantillas** de `template-parts/sections/` para usar `get_field()`
 4. **Crear una página de opciones** para configuración global del tema
 5. **Probar** que los campos se guarden y muestren correctamente
